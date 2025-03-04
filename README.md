@@ -15,7 +15,7 @@ A simple script that takes Japanese sentence input and attatches furigana for us
 `$ ruby attachfuriganatex.rb`
 
 ## Latex Usage
-The generated output is for use with /ruby tags from the [pxrubrica](https://github.com/zr-tex8r/PXrubrica) package.
+The generated output is for use with /ruby commands from the [pxrubrica](https://github.com/zr-tex8r/PXrubrica) package.
 
 ## Example latex configuration
 (Works on Overleaf, must use lualatex compiler)
