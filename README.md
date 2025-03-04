@@ -18,10 +18,10 @@ A simple script that takes Japanese sentence input and attatches furigana for us
 The generated output is for use with /ruby tags from the [pxrubrica](https://github.com/zr-tex8r/PXrubrica) package.
 
 ## Example latex configuration
-(Works on Overleaf)
+(Works on Overleaf, must use lualatex compiler)
 
 ```
-\documentclass[article,tate]{jlreq}
+\documentclass[article,tate]{jlreq} % vertical  
 \usepackage[match]{luatexja-fontspec}
 \usepackage{pxrubrica}
 \setmainjfont{TakaoMincho}
